@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Grid",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
