@@ -1,20 +1,47 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Movie App
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+      </ion-col>
+      <ion-col size="6">
+        <ion-img src="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/0b2b67a1de6a06d1ce65e4ccc64047e3_a9f7318e-c5c4-4d2a-aed2-890bbfad883c_480x.progressive.jpg?v=1573590273">
+        </ion-img>
+        <ion-button [routerLink]="['/principal']">Principal</ion-button>
+      </ion-col>
+      <ion-col>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12" size-xs>
+        <ion-img src="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/darkknight.building.24x36_480x.progressive.jpg?v=1648745678"></ion-img>
+        <ion-button [routerLink]="['/opcao1']">Opção 1</ion-button>
+      </ion-col>
+      <ion-col size="12" size-xs>
+        <ion-img src="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/pulpfiction.2436_480x.progressive.jpg?v=1620048742"></ion-img> <ion-button [routerLink]="['/opcao2']">Opção 2</ion-button>
+      </ion-col>
+      <ion-col size="12" size-xs>
+        <ion-img src="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/e50345d7cfee907ad63bb835109b37b9_263eaa00-ac40-4a0e-b2d7-86bb4ac69c90_480x.progressive.jpg?v=1573584652"></ion-img><ion-button [routerLink]="['/opcao3']">Opção 3</ion-button>
+      </ion-col>
+    </ion-row>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <ion-row>
+      <ion-col size="12" size-xs>
+        <ion-img src="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/108b520c55e3c9760f77a06110d6a73b_e97cf224-d57f-44e3-8477-4f5479cd746b_480x.progressive.jpg?v=1573616089"></ion-img><ion-button [routerLink]="['/opcao4']">Opção 4</ion-button>
+      </ion-col>
+      <ion-col size="12" size-xs>
+        <ion-img src="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/016359e169713e86209b31a3414c3454_62a96df0-c41a-42f9-81ac-3a527ace8fbe_480x.progressive.jpg?v=1573616076"></ion-img><ion-button [routerLink]="['/opcao5']">Opção 5</ion-button>
+      </ion-col>
+      <ion-col size="12" size-xs>
+        <ion-img src="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/2e9e934dfdb6bad26beb558534adccbd_f4bf254e-743f-414e-a8fa-c6f1592605fc_480x.progressive.jpg?v=1573651266"></ion-img><ion-button [routerLink]="['/opcao6']">Opção 6</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

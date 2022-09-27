@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomePage } from './home.page';
+import { Router } from '@angular/router';
 
 const routes: Routes = [
   {
@@ -13,4 +14,11 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class HomePageRoutingModule {}
+export class HomePageRoutingModule {
+  constructor(private router: Router) {
+
+  }
+  SetOpcao1(){
+    this.router.navigate(['opcao1'])
+  }
+}
